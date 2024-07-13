@@ -1,7 +1,7 @@
 function checkAnswer(){
     const correctAnswer = "4";
     let userAnswer = null;
-    let feedback = document.getElementById("feedback");
+    let feedback = document.querySelector("feedback");
     let inputs =document.querySelectorAll("input[name='quiz']");
 
     inputs.forEach(element => {
